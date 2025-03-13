@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Book } from '../book';
+import { LibraryService } from '../library.service';
 
 @Component({
   selector: 'app-list',
@@ -9,5 +10,12 @@ import { Book } from '../book';
 })
 export class ListComponent {
   @Input() bookList:Book[]=[];
+   
 
+
+ 
 }
+
+
+
+
